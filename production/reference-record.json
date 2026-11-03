@@ -1,0 +1,174 @@
+{
+  "status": "preproduction-only",
+  "runwayToolsAvailable": false,
+  "runwayCallsMade": 0,
+  "videosGenerated": 0,
+  "frames": [
+    {
+      "id": "intro-reference-v001",
+      "tool": "image_gen.imagegen",
+      "savedPath": "production/storyboards/intro-reference-v001.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "0d788078c3d3cd80230ef2cebf5eb79bdb31902139d1fe58b18f6a70982ddf85",
+      "approvalStatus": "unapproved-reference-still",
+      "motionValidated": false,
+      "sourcePathAtCreation": "/workspace/generated_images/exec-f406e1e1-17cc-4d5e-b10f-9f39fb9d3e66.png",
+      "inputReferencePaths": [
+        "production/references/source-photos/nicolai-user-reference.png",
+        "production/references/characters/nicolai-idle.png",
+        "production/references/characters/nicolai-run.png",
+        "production/references/gameplay/downtown-gameplay.png",
+        "production/references/style-analysis/reference-01.jpg"
+      ]
+    },
+    {
+      "id": "joggers-reveal-reference-v001",
+      "tool": "image_gen.imagegen",
+      "savedPath": "production/storyboards/joggers-reveal-reference-v001.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "760d2a848d659eb0365ef178e38e1f5dd2f5b35522732074ff904ead9ee2aa19",
+      "approvalStatus": "unapproved-reference-still",
+      "motionValidated": false,
+      "sourcePathAtCreation": "/workspace/generated_images/exec-6bb4af43-c158-4cc5-bf11-83930a03f344.png",
+      "inputReferencePaths": [
+        "production/storyboards/intro-reference-v001.png",
+        "production/references/source-photos/nicolai-user-reference.png",
+        "production/references/characters/office-host-native.png",
+        "production/references/locations/505-fifth-native.png",
+        "production/references/characters/nicolai-park-atlas.webp"
+      ]
+    }
+  ],
+  "videoReference": {
+    "path": "production/references/style/Fanthomas-opening.mp4",
+    "sha256": "9db3a33e9341fc52ff693054fb5a9f8d580d9c01dc5170772a12783b32f473a3",
+    "durationSeconds": 31.950658,
+    "width": 640,
+    "height": 480,
+    "fps": 25,
+    "auditoryReviewPerformed": false
+  },
+  "runwayAvailabilityScope": "Previous chat only; recheck tool availability in the new chat.",
+  "sourceAssets": [
+    {
+      "path": "production/references/source-photos/nicolai-user-reference.png",
+      "handoffSource": "references/source-photos/nicolai-user-reference.png",
+      "bytes": 308297,
+      "sha256": "84d9cb5ce1bb53f25a09c67d291a107ebc9612340d455b7e674572c97b2c86c4"
+    },
+    {
+      "path": "production/references/characters/nicolai-idle.png",
+      "handoffSource": "references/characters/nicolai-idle.png",
+      "bytes": 107929,
+      "sha256": "5c5b6e2c90db3f81ac7fa86a21273abe9ce1d0f71daef23ed4eb776d94a0a41b"
+    },
+    {
+      "path": "production/references/characters/nicolai-run.png",
+      "handoffSource": "references/characters/nicolai-run.png",
+      "bytes": 143341,
+      "sha256": "8fdf6a33031ef42a7028c13c08d7081cec56cfe7b6470fc865eb553a48f6c6f3"
+    },
+    {
+      "path": "production/references/production-character-board.jpg",
+      "handoffSource": "references/production-character-board.jpg",
+      "bytes": 97048,
+      "sha256": "76268536b06b38d9394a057b39e5e70be240f0d9d4d0b0b5b19bd8049f8bdcac"
+    },
+    {
+      "path": "production/references/characters/nicolai-formal-atlas.webp",
+      "handoffSource": "game/assets/original-27.webp",
+      "bytes": 409246,
+      "sha256": "f9a6c669e822fbb30a3b5b86cf2dcc58b1a09099681e868b93887465c4e0cf94"
+    },
+    {
+      "path": "production/references/characters/nicolai-park-atlas.webp",
+      "handoffSource": "game/assets/original-17.webp",
+      "bytes": 401910,
+      "sha256": "44fbb0ae052902e4153b4add60b2668df55df5f32cf66c98a45639287deedc1b"
+    },
+    {
+      "path": "production/references/characters/nicolai-park-flip-atlas.webp",
+      "handoffSource": "game/assets/original-18.webp",
+      "bytes": 243176,
+      "sha256": "388005196d1b66f940e12daf810513612d2805ca810c9afdfb0e94241ba8c5b1"
+    },
+    {
+      "path": "production/references/characters/office-host-native.png",
+      "handoffSource": "references/office-host/host-native-source.png",
+      "bytes": 1553824,
+      "sha256": "d66b584df14014bc364f0c3f8a013c0ef95204950771b61c34810415ef48b95e"
+    },
+    {
+      "path": "production/references/locations/lower-manhattan-wtc.webp",
+      "handoffSource": "references/locations/downtown-one-world-trade-center.webp",
+      "bytes": 486614,
+      "sha256": "4d33b9cc744c2941fd4b2893081949e240fc74190424c50f1a80da9e7120e083"
+    },
+    {
+      "path": "production/references/locations/505-fifth-native.png",
+      "handoffSource": "references/locations/midtown-505-native-source.png",
+      "bytes": 2137852,
+      "sha256": "f0b1d828e62866f8f1b01e69d9ccb67ca47ca370d4f018bcebb4f44de0f0c6f3"
+    },
+    {
+      "path": "production/references/locations/central-park-bow-bridge.webp",
+      "handoffSource": "references/locations/central-park-approved-bow-bridge.webp",
+      "bytes": 686544,
+      "sha256": "c3817e5e14060794307c5e3da69a451c920b9d9d0308eaabde4f2a7de9a282ed"
+    },
+    {
+      "path": "production/references/locations/midtown-bryant-garden.webp",
+      "handoffSource": "references/locations/midtown-bryant-garden.webp",
+      "bytes": 581732,
+      "sha256": "456caebc7268bf0cfc89a2b7d69d239fa77de0ac83e595b0d7f865624353cfdc"
+    },
+    {
+      "path": "production/references/gameplay/downtown-gameplay.png",
+      "handoffSource": "references/gameplay/downtown-gameplay.png",
+      "bytes": 1781241,
+      "sha256": "abdb290463788698b5ad84c61e163961ba15c5a4881c1ea69b285db4e8cb0572"
+    },
+    {
+      "path": "production/references/gameplay/office-gameplay.png",
+      "handoffSource": "references/gameplay/office-gameplay.png",
+      "bytes": 1789049,
+      "sha256": "00ace737c9ab8c232d03377cce4f6d6087d236a9439e1f5a3fe2e36c1e4afaa6"
+    },
+    {
+      "path": "production/references/gameplay/central-park-gameplay.png",
+      "handoffSource": "references/gameplay/central-park-gameplay.png",
+      "bytes": 2001320,
+      "sha256": "0af554031c5a4801b85847209dd33f69631d6704243b73b7429c0e6882475da9"
+    },
+    {
+      "path": "production/references/branding/nbim-logo.svg",
+      "handoffSource": "game/assets/original-08.svg",
+      "bytes": 7868,
+      "sha256": "e3acfba90abbe49b0da7dbc5388c427dd8b7165e67f89cbfbd1518976b0af5cc"
+    },
+    {
+      "path": "production/references/branding/nbim-symbol.svg",
+      "handoffSource": "game/assets/original-09.svg",
+      "bytes": 224,
+      "sha256": "2de1f226798878fcc82624663b14d14fd734f7e89dedc375e24a1a6e87b7d604"
+    },
+    {
+      "path": "production/references/branding/norges-bank-medium.woff2",
+      "handoffSource": "game/assets/original-04.woff2",
+      "bytes": 22940,
+      "sha256": "1a101de10b2010e4becf906d07d4f93648d8b8066820c8a06b3520eae830ebf6"
+    },
+    {
+      "path": "production/references/branding/norges-bank-bold.woff2",
+      "handoffSource": "game/assets/original-05.woff2",
+      "bytes": 22700,
+      "sha256": "a0ce05257088651c814034ba3c6fdee3fa4e312e3f552112bba04b4faae4fcff"
+    }
+  ]
+}
